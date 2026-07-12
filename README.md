@@ -39,3 +39,5 @@ Posteriormente se calcula el costo total según la cantidad de megabytes consumi
 #### Autor
 
 `Piero Araujo`
+
+<img width="2040" height="810" alt="Factory2" src="https://github.com/user-attachments/assets/02be2969-8ab1-4c90-8e94-00355b4de119" />

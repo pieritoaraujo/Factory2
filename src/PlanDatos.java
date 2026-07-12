@@ -1,18 +1,18 @@
 public abstract class PlanDatos {
     protected String nombre;
-    protected float tasa;
+    protected double tasa;
 
-    public abstract void setTasa();
+    public void setTasa(double tasa) {
+        this.tasa=tasa;
+    }
 
-    public float calculoPago(int datos){
+    public double calculoPago(int datos){
         return datos * tasa;
     }
 
     @Override
     public String toString() {
-        return "PlanDatos{" +
-                "nombre='" + nombre + '\'' +
-                ", tasa=" + tasa +
-                '}';
+        return "Plan: " + nombre +
+                "\nTasa: " + tasa;
     }
 }
